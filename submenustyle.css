@@ -1,0 +1,44 @@
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none; }
+
+header {position: fixed;
+width: 100%;}
+
+body {width: 100%;
+font-family: "Arial" , sans serif;}
+
+.menu { width: 100%;
+	float: right; 
+text-align: center;
+background-color: black;
+font-size: 20px;
+font-weight: bold;
+position: relative;
+padding: 10px;
+
+}
+
+.menu li {display: inline-block;
+width: 25%;
+vertical-align: top;}
+
+ul {list-style: none;}
+
+a { color: white;}
+
+.submenu {position: absolute;
+	visibility: hidden;
+	background-color: black;
+
+}
+
+.submenu li {width: 50%;
+text-align: center;
+padding: 15px 38px;}
+
+.menu li:hover .submenu { visibility: visible; }
+
+section {padding: 100px 20px; }

@@ -1,0 +1,72 @@
+* { padding: 0;
+margin:0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none; }
+
+@keyframes giro {
+	0% { transform: rotate(0deg);}
+
+	100% { transform: rotate(360deg);}
+}
+
+.en1 { font-size: 80px; 
+position: absolute;
+left:50px;
+margin-top: 5px;
+
+animation-name: giro;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+
+
+
+.en2 { font-size: 45px;
+position: absolute;
+left: 126px;
+top: 45px; 
+margin-top: 5px;
+
+animation-name: giro;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: reverse;}
+
+.en3 { font-size: 30px;
+position: absolute;
+left: 30px;
+top: 70px; 
+margin-top: 5px;
+
+animation-name: giro;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-direction: reverse;}
+
+.en4 { font-size: 50px;
+position: absolute;
+left: 50px; 
+top:90px; 
+margin-top: 5px;
+
+animation-name: giro;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;}
+
+.en5 { font-size: 20px;
+position: absolute; 
+left: 102px; 
+top:110px;
+margin-top: 5px;
+
+animation-name: giro;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear; 
+animation-direction: reverse;}
+
+

@@ -1,0 +1,6 @@
+cuando a position le aplicamos top/bottom/left/right , lo que hace no es moverlo en esa dirección sino desde esa dirección
+Ej: si le digo top: 50px se va a desplazar desde el top 50 px hacia el bottom.
+
+animaciones , al 0% y al 100% se usa el mismo cambio para que cuando termina la animación no sea repentino el cambio respecto a cuando se repite
+se suelen armar al principio del archivo para usarla luego en donde quiera, se arma por separado y tiene un nombre
+
